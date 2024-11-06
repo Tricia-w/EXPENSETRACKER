@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/balanceAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="0dp"
+        android:text="RM 0.00"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dashboard_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Monthly Summary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Total Expenses -->
+    <TextView
+        android:id="@+id/total_expenses_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Total Expenses: RM 0.00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/total_income_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:text="Total Income: RM 0.00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/monthly_budget_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Monthly Budget: RM 0.00"
+        android:textSize="20sp" />
+
+    <!-- Button to View Details -->
+    <Button
+        android:id="@+id/view_details_button"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/purple"
+        android:text="View Details"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/add_expense_button"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/purple"
+        android:text="Add Expense"
+        android:textColor="@color/white"/>
+
+    <!-- Add Income Button -->
+    <Button
+        android:id="@+id/add_income_button"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/purple"
+        android:text="Add Income"
+        android:textColor="@color/white"/>
+
+    <!-- Settings Button -->
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/purple"
+        android:text="Settings"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
