@@ -34,5 +34,6 @@
     <string name="notifications_disabled">Notifications Disabled</string>
     <string name="edit">Edit</string>
     <string name="save">Save</string>
+    <string name="username_load_failed">Username load failed</string>
 
 </resources>

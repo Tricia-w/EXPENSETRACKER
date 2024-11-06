@@ -19,6 +19,16 @@
         android:textSize="48sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/availableBalanceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available balance"
+        android:textSize="16sp"
+        android:textColor="@color/l_grey"
+        android:gravity="center"
+        android:paddingBottom="24dp"/>
+
     <!-- Title -->
     <TextView
         android:id="@+id/dashboard_title"

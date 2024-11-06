@@ -201,7 +201,7 @@ public class DashboardActivity extends AppCompatActivity {
 
         totalIncomeTextView.setText(String.format("Total Income: RM%.2f", totalIncome));
         totalExpensesTextView.setText(String.format("Total Expenses: RM%.2f", totalExpenses));
-        availableBalanceTextView.setText(String.format("Available Balance: RM%.2f", availableBalance));
+        availableBalanceTextView.setText(String.format("RM%.2f", availableBalance));
     }
 
     @Override
