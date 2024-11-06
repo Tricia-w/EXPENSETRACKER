@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy">#323f5c</color> <!-- Darker background color -->
+    <color name="purple">#bb86fc</color> <!-- Lighter purple for better contrast -->
+    <color name="l_red">#ff8ab1</color>
+    <color name="white">#FFFFFF</color> <!-- White text for contrast -->
+    <color name="l_grey">#A9A9A9</color> <!-- Darker grey for text in dark mode -->
+</resources>
